@@ -1,0 +1,12 @@
+Can you TODAY convert this Perl code to PHP?
+
+http://etutorials.org/Misc/blast/Part+II+Theory/Chapter+3.+Sequence+Alignment/3.2+Local+Alignment+Smith-Waterman/
+
+The PHP code should be a function that looks like this:
+
+function smith_waterman ($str1, $str2, &$HTML)
+
+where the function return is the SCORE, the strings are input sequences of letters (eg ABCDEFG & ABCEFG) and $HTML is the alignment which in this case is eg (a gap is introduced):
+
+ABCDEFG
+ABC-EFG
